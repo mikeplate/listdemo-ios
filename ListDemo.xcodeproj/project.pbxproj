@@ -18,6 +18,9 @@
 		5DC401C816E48D4100BF1A3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC401C716E48D4100BF1A3C /* Default-568h@2x.png */; };
 		5DC401CB16E48D4100BF1A3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC401CA16E48D4100BF1A3C /* ViewController.m */; };
 		5DC401CE16E48D4100BF1A3C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC401CC16E48D4100BF1A3C /* ViewController.xib */; };
+		5DC401D716E4901400BF1A3C /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC401D516E4901400BF1A3C /* EditViewController.m */; };
+		5DC401D816E4901400BF1A3C /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC401D616E4901400BF1A3C /* EditViewController.xib */; };
+		5DC401DB16E49A1400BF1A3C /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC401DA16E49A1400BF1A3C /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		5DC401C916E48D4100BF1A3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5DC401CA16E48D4100BF1A3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DC401CD16E48D4100BF1A3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5DC401D416E4901400BF1A3C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		5DC401D516E4901400BF1A3C /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		5DC401D616E4901400BF1A3C /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		5DC401D916E49A1400BF1A3C /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		5DC401DA16E49A1400BF1A3C /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,11 @@
 				5DC401CA16E48D4100BF1A3C /* ViewController.m */,
 				5DC401CC16E48D4100BF1A3C /* ViewController.xib */,
 				5DC401B816E48D4100BF1A3C /* Supporting Files */,
+				5DC401D416E4901400BF1A3C /* EditViewController.h */,
+				5DC401D516E4901400BF1A3C /* EditViewController.m */,
+				5DC401D616E4901400BF1A3C /* EditViewController.xib */,
+				5DC401D916E49A1400BF1A3C /* Product.h */,
+				5DC401DA16E49A1400BF1A3C /* Product.m */,
 			);
 			path = ListDemo;
 			sourceTree = "<group>";
@@ -163,6 +176,7 @@
 				5DC401C616E48D4100BF1A3C /* Default@2x.png in Resources */,
 				5DC401C816E48D4100BF1A3C /* Default-568h@2x.png in Resources */,
 				5DC401CE16E48D4100BF1A3C /* ViewController.xib in Resources */,
+				5DC401D816E4901400BF1A3C /* EditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +190,8 @@
 				5DC401BE16E48D4100BF1A3C /* main.m in Sources */,
 				5DC401C216E48D4100BF1A3C /* AppDelegate.m in Sources */,
 				5DC401CB16E48D4100BF1A3C /* ViewController.m in Sources */,
+				5DC401D716E4901400BF1A3C /* EditViewController.m in Sources */,
+				5DC401DB16E49A1400BF1A3C /* Product.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ListDemo/ListDemo-Prefix.pch";
 				INFOPLIST_FILE = "ListDemo/ListDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +291,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ListDemo/ListDemo-Prefix.pch";
 				INFOPLIST_FILE = "ListDemo/ListDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
